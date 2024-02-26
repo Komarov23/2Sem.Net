@@ -1,0 +1,14 @@
+D:\Учёба\.Net\2lr3\2lr3\bin\Debug\net8.0\2lr3.exe
+D:\Учёба\.Net\2lr3\2lr3\bin\Debug\net8.0\2lr3.deps.json
+D:\Учёба\.Net\2lr3\2lr3\bin\Debug\net8.0\2lr3.runtimeconfig.json
+D:\Учёба\.Net\2lr3\2lr3\bin\Debug\net8.0\2lr3.dll
+D:\Учёба\.Net\2lr3\2lr3\bin\Debug\net8.0\2lr3.pdb
+D:\Учёба\.Net\2lr3\2lr3\obj\Debug\net8.0\2lr3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учёба\.Net\2lr3\2lr3\obj\Debug\net8.0\2lr3.AssemblyInfoInputs.cache
+D:\Учёба\.Net\2lr3\2lr3\obj\Debug\net8.0\2lr3.AssemblyInfo.cs
+D:\Учёба\.Net\2lr3\2lr3\obj\Debug\net8.0\2lr3.csproj.CoreCompileInputs.cache
+D:\Учёба\.Net\2lr3\2lr3\obj\Debug\net8.0\2lr3.dll
+D:\Учёба\.Net\2lr3\2lr3\obj\Debug\net8.0\refint\2lr3.dll
+D:\Учёба\.Net\2lr3\2lr3\obj\Debug\net8.0\2lr3.pdb
+D:\Учёба\.Net\2lr3\2lr3\obj\Debug\net8.0\2lr3.genruntimeconfig.cache
+D:\Учёба\.Net\2lr3\2lr3\obj\Debug\net8.0\ref\2lr3.dll
