@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учёба\\.Net\\2lr5\\ConsoleApp5\\ConsoleApp5.csproj": {}
+    "D:\\Учёба\\.Net\\2Sem\\2Sem.Net\\2lr5\\ConsoleApp5\\ConsoleApp5.csproj": {}
   },
   "projects": {
-    "D:\\Учёба\\.Net\\2lr5\\ConsoleApp5\\ConsoleApp5.csproj": {
+    "D:\\Учёба\\.Net\\2Sem\\2Sem.Net\\2lr5\\ConsoleApp5\\ConsoleApp5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учёба\\.Net\\2lr5\\ConsoleApp5\\ConsoleApp5.csproj",
+        "projectUniqueName": "D:\\Учёба\\.Net\\2Sem\\2Sem.Net\\2lr5\\ConsoleApp5\\ConsoleApp5.csproj",
         "projectName": "ConsoleApp5",
-        "projectPath": "D:\\Учёба\\.Net\\2lr5\\ConsoleApp5\\ConsoleApp5.csproj",
+        "projectPath": "D:\\Учёба\\.Net\\2Sem\\2Sem.Net\\2lr5\\ConsoleApp5\\ConsoleApp5.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Учёба\\.Net\\2lr5\\ConsoleApp5\\obj\\",
+        "outputPath": "D:\\Учёба\\.Net\\2Sem\\2Sem.Net\\2lr5\\ConsoleApp5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files\\NuGetPackages"
