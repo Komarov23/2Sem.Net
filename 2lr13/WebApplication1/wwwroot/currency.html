@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Currency</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.0/signalr.js"></script>
+    <script>
+        let connection = new signalR.HubConnectionBuilder()
+            .withUrl("/currencyhub")
+            .build();
+
+        connection.on("ReceiveCurrencyRates", (rates) => {
+            const currencies = Object.values(JSON.parse(rates).data).map(({ code, value }) => `<tr>
+                    <td>${code}</td>
+                    <td>${value}</td>
+                </tr>`
+            ).join("")
+
+            document.getElementById("loading").hidden = true;
+            document.getElementById("table").hidden = false;
+            document.getElementById("currencyRates").innerHTML = currencies;
+        });
+
+        connection.start().catch(err => console.error(err.toString()));
+    </script>
+</head>
+<body>
+    <h1>Currency Rates</h1>
+    <div id="loading">Waiting for data...</div>
+    <table id="table" border="1" width="100%" hidden>
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody id="currencyRates"></tbody>
+    </table>
+</body>
+</html>
